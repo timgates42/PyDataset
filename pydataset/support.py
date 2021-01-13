@@ -11,7 +11,7 @@ ERROR = ('Not valid dataset name and no similar found! '
 
 def similarity(w1, w2, threshold=0.5):
     """compare two strings 'words', and
-    return ratio of smiliarity, be it larger than the threshold,
+    return ratio of similarity, be it larger than the threshold,
     or 0 otherwise.
 
     NOTE: if the result more like junk, increase the threshold value.
